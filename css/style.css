@@ -92,7 +92,7 @@ a:focus {
     transform: translate(-50%, -25%);
 }
 .image-content{
-    color: red;
+    color: white;
     font-family: robotoblack;
     font-size: 68px;
     font-weight: bold;
@@ -210,6 +210,10 @@ a:focus {
     padding: 80px 0;
 }
 
+.section-padding2 {
+    padding: 20px 0;
+}
+
 .section-padding-discover
 {
     padding:80px 0 0 0;
@@ -276,7 +280,7 @@ a:focus {
     text-align: center;
 }
 
-.prenotazioni-titolo {
+.eventi-titolo {
     padding-top: 40px;
     font-family: oswaldbold;
     font-size: 30px;
@@ -287,7 +291,7 @@ a:focus {
     text-align: center;
 }
 
-.prenotazioni-sottotitolo {
+.eventi-sottotitolo {
     font-family: oswaldbold;
     font-size: 20px;
     letter-spacing: 3px;
@@ -295,8 +299,18 @@ a:focus {
     color: white;
     text-align: center;
     text-transform: uppercase;
-    color: red;
     padding: 0px 40px;
+}
+
+.prenotazioni-titolo {
+    padding-top: 40px;
+    font-family: oswaldbold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
 }
 
 .tv-service-content > h3 {
@@ -359,12 +373,33 @@ a:focus {
     text-transform: uppercase;
 }
 
+.reservation-buttons3 button {
+    background-color: #222;
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #ffffff;
+    font-family: robotobold;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#prenotazioni .reservation-buttons3 .btn.r-button:hover {
+    background-color: transparent;
+    border: 1px solid #222;
+    color: #222;
+    text-decoration: none;
+}
+
 #reservation .reservation-buttons .btn .r-button.focus, .btn.r-button:focus, .btn.r-button:hover {
     background-color: transparent;
     border: 1px solid #ffffff;
     color: #ffffff;
     text-decoration: none;
 }
+
 .section-title > h3 {
     color: #ffffff;
     font-family: oswaldbold;
@@ -404,6 +439,13 @@ a:focus {
     margin-left: 10px;
     vertical-align: middle;
 }
+
+.tv-contact-contect a {
+    color:#222;
+    font-family: robotomedium;
+    letter-spacing: 2px;
+}
+
 .tv-hour-content
 {
     margin-top: 30px;
@@ -425,19 +467,25 @@ a:focus {
 .tv-contact-contect:hover {
     color: #f72100;
 }
+
+.tv-contact-contect a:hover {
+color: #f72100;
+}
 .bg-color
 {
-    background-color:#f72100;
+    background-color:blue;
 }
 /*End*/
 
 /*Footer*/
 .social-navbar a {
-    border: 2px solid #222;
-    color: #222;
+    border: 2px solid white;
+    color: white;
     margin: 3px;
     padding: 5px;
 }
+
+
 .fa.fa-google-plus.google {
     margin: 0 3px;
 }
@@ -541,4 +589,6 @@ a:focus {
     padding-bottom: 0px;
 }
 
-
+.label-color {
+    color: #222;
+}
