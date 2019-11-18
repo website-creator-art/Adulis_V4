@@ -1,0 +1,544 @@
+
+
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    font-family: 'robotoregular';
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin:0px;
+}
+/* added css */
+#cici{
+    position:fixed;
+    top:0;
+    transition: top 0.5s; /* Transition effect when sliding down (and up) */
+}
+/*Navigation*/
+.navbar-header {
+    float: none;
+}
+.navbar-brand {
+    color: #222 !important;
+    float: none;
+    font-family: oswaldbold;
+    font-size: 30px;
+    height: 50px;
+    line-height: 50px;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.navbar-nav {
+    float: none;
+}
+.navbar-nav > li {
+    float: none;
+}
+.nav > li {
+    display: inline-block;
+    position: relative;
+}
+.navbar {
+    border: none;
+    margin-bottom: 0px;
+}
+a:focus {
+    outline: none;
+    outline-offset: 0px;
+}
+.main-menu > li > a {
+    color: #222;
+    font-family: robotobold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+    color: #222 !important;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    background-color: transparent;
+    color: #f72100;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #222;
+}
+.tv-view-color
+{
+    color: #f72100 !important;
+}
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    padding:10px;
+}
+/*End Navigation*/
+
+/*BG Banner Section*/
+.tv-image-overlay {
+    height: 643px;
+    width: 100%;
+}
+.tv-banner-section {
+    position: relative;
+}
+.tv-main-header {
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    transform: translate(-50%, -25%);
+}
+.image-content{
+    color: red;
+    font-family: robotoblack;
+    font-size: 68px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding:0 40px;
+}
+.image-content2{
+    color: #ffffff;
+    font-family: robotoblack;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding:0 40px;
+}
+.tv-demo-color{
+    color:#f72100;
+}
+.margin-title
+{
+    margin-top:10px;
+}
+.tv-upper-line:before, .tv-upper-line:after {
+    content: '';
+    position: absolute;
+}
+.tv-upper-line:before {
+    width: 1px;
+    height:60px;
+    background: #ffffff;
+    right:100%;
+}
+.tv-upper-line:after {
+    width: 1px;
+    height:60px;
+    background: #ffffff;
+    left:100%;
+}
+.tv-upper-line {
+    border-bottom: 1px solid #ffffff;
+    left: 0%;
+    margin: 10px 0 40px;
+    position: relative;
+    width: 100%;
+}
+.tv-down-line:before, .tv-down-line:after {
+    content: '';
+    position: absolute;
+}
+.tv-down-line:before {
+    width: 1px;
+    height:60px;
+    background: #ffffff;
+    right:100%;
+    bottom:0;
+}
+.tv-down-line:after {
+    width: 1px;
+    height:60px;
+    background: #ffffff;
+    left:100%;
+    bottom:0;
+}
+.tv-down-line {
+    border-bottom: 1px solid #ffffff;
+    left: 0%;
+    margin: 40px 0 20px;
+    position: relative;
+    width: 100%;
+}
+.tv-banner-desc {
+    color: #ffffff;
+    font-family: robotomedium;
+    font-size: 18px;
+    left: 50%;
+    letter-spacing: 2px;
+    position: absolute;
+    text-align: center;
+    top: 65%;
+    transform: translate(-50%, -65%);
+    width: 35%;
+}
+.view-button button {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    color: #ffffff;
+    font-family: robotobold;
+    font-size: 18px;
+    left: 50%;
+    letter-spacing: 2px;
+    padding: 15px 25px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 85%;
+    transform: translate(-50%, -85%);
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus {
+    outline: none;
+    outline-offset: 0px;
+}
+#banner .view-button .btn .v-button.focus, .btn.v-button:focus, .btn.v-button:hover {
+    color: #ffffff;
+    background-color: #f72100;
+    text-decoration: none;
+    border:none
+}
+
+/*End Banner Section*/
+
+
+/*Section Discover*/
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-padding-discover
+{
+    padding:80px 0 0 0;
+}
+.section-margin
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 80px;
+}
+.tv-discover-content h3 {
+    font-family: robotobold;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color:#222;
+}
+.tv-discover-content > p {
+    font-family: robotoregular;
+    line-height: 25px;
+    text-align: justify;
+    width: 90%;
+}
+.menu-buttons button {
+    background-color: transparent;
+    border: 1px solid #222;
+    border-radius: 0;
+    box-shadow: none;
+    color: #222;
+    font-family: robotobold;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    padding: 12px 10px;
+    text-transform: uppercase;
+}
+/*.menu-buttons .btn.focus, .btn:focus, .btn:hover {
+    border: 1px solid  #f72100;
+    color:  #ffffff;
+    text-decoration: none;
+    background-color:  #f72100;
+}*/
+#menu .menu-buttons .btn .m-button.focus, .btn.m-button:focus, .btn.m-button:hover {
+    border: 1px solid  #f72100;
+    color:  #ffffff;
+    text-decoration: none;
+    background-color:  #f72100;
+}
+/*End Section Discover*/
+
+/*Service Section*/
+
+
+.menu {
+    font-family: oswaldbold;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color:#222;
+    text-align: center;
+}
+
+.prenotazioni-titolo {
+    padding-top: 40px;
+    font-family: oswaldbold;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+.prenotazioni-sottotitolo {
+    font-family: oswaldbold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    padding: 0px 40px;
+}
+
+.tv-service-content > h3 {
+    color: #222;
+    font-family: robotobold;
+    font-size: 16px;
+    letter-spacing: 3px;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+.tv-service-content > p {
+    text-align: justify;
+}
+.tv-service-content > h5 {
+    text-align: left;
+}
+.img-margin > img {
+    margin-top: 12px;
+}
+.menu-buttons {
+    margin-bottom: 50px;
+}
+
+/*End Serivce Section*/
+
+
+/*Reserrvation Section*/
+.tv-image-serivce-overlay{
+    height: 317px;
+    width: 100%;
+    position: relative;
+}
+.reservation-buttons button {
+    background-color: #f72100;
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #ffffff;
+    font-family: robotobold;
+    font-size: 14px;
+    font-weight: 700;
+    left: 50%;
+    letter-spacing: 2px;
+    padding: 12px 40px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 70%;
+    transform: translate(-50%, -70%);
+}
+.reservation-buttons2 button {
+    background-color: #f72100;
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #ffffff;
+    font-family: robotobold;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#reservation .reservation-buttons .btn .r-button.focus, .btn.r-button:focus, .btn.r-button:hover {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+}
+.section-title > h3 {
+    color: #ffffff;
+    font-family: oswaldbold;
+    font-size: 30px;
+    left: 50%;
+    letter-spacing: 3px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 40%;
+    transform: translate(-50%, -40%);
+}
+/*End*/
+
+
+/*Contact Section*/
+.contact-section-title > h3 {
+    color: #222;
+    font-family: robotobold;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    text-transform: uppercase;
+}
+.hour-time > h3
+{
+    color: #ffffff !important;
+}
+.tv-contact-contect
+{
+    margin-top: 30px;
+}
+.tv-contact-contect > span {
+    font-family: robotomedium;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.tv-hour-content
+{
+    margin-top: 30px;
+}
+.last-margin {
+    padding-bottom: 40px;
+}
+.tv-hour-content > span {
+    font-family: robotomedium;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-left: 0px;
+    vertical-align: middle;
+    color:#ffffff;
+}
+.tv-contact-contect > img {
+    width: 25px;
+}
+.tv-contact-contect:hover {
+    color: #f72100;
+}
+.bg-color
+{
+    background-color:#f72100;
+}
+/*End*/
+
+/*Footer*/
+.social-navbar a {
+    border: 2px solid #222;
+    color: #222;
+    margin: 3px;
+    padding: 5px;
+}
+.fa.fa-google-plus.google {
+    margin: 0 3px;
+}
+.fa.fa-instagram.insta {
+    margin: 0 5px;
+}
+.fa.fa-twitter.twitter {
+    margin: 0 5px;
+}
+.fa.fa-facebook-f.fb {
+    margin: 0 7px;
+}
+.fa.fa-youtube.you {
+    margin: 0 6px;
+}
+.social-navbar a:hover {
+    border: 2px solid #f72100;
+}
+.social-navbar {
+    margin-top: 20px;
+}
+.tv-footer-desc {
+    color: #222;
+    font-family: robotomedium;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.tv-footer-desc > span {
+    color: #f72100;
+}
+.tv-copyright
+{
+    color: #222;
+    font-family: robotomedium;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.social-navbar span:hover {
+    color: #f72100;
+}
+/*End*/
+
+.nav-scroll-color
+{
+    color:#ffffff !important;
+}
+.menu-scroll-menu
+{
+    color:#ffffff !important;
+}
+.menu-active > li > a:hover {
+    color: #222 !important;
+}
+.nav-scroll
+{
+    background-color: red !important;
+}
+
+.back-color::after {
+    background-color: #f72100;
+    color: #fff !important;
+    content: "";
+    height: 100%;
+    margin-top: 0;
+    position: absolute;
+    right: -90px;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.tv-copyright a {
+    color: #222222;
+}
+.tv-copyright a:hover
+{
+    color:#f72100;
+}
+/* added css */
+.carousel-inner img {
+    margin: auto;
+  }
+
+.item img {
+    object-fit:cover;
+    min-height: 500px;
+}
+
+#carosellobello {
+    padding: 0px 0px 0px 0px;
+}
+
+.carousel-indicators li{
+    padding: 12px;
+}
+.carousel-indicators{
+    margin-bottom: 5px;
+}
+
+.carosello-descrizione {
+    padding-bottom: 0px;
+}
+
+

@@ -1,0 +1,206 @@
+@media (max-width:1300px)
+{
+    .back-color::after {
+        right: -55px;
+    }
+}
+@media(max-width:1200px)
+{
+    .main-menu > li > a {
+        padding: 13px 7px;
+    }
+    .tv-contact-contect > span {
+        font-size: 15px;
+    }
+    .tv-contact-contect > img {
+        width: 20px;
+    }
+    .tv-hour-content > span {
+        font-size: 15px;
+    }
+}
+@media(max-width:1000px)
+{
+    .image-content {
+        font-size: 60px;
+    }
+    .tv-banner-desc {
+        width: 60%;
+    }
+    .main-menu > li > a {
+        padding: 10px 6px;
+        line-height: 30px;
+    }
+    .tv-contact-contect > span {
+        font-size: 15px;
+    }
+    .tv-contact-contect > img {
+        width: 20px;
+    }
+    .tv-hour-content > span {
+        font-size: 15px;
+    }
+    .back-color::after {
+        right: -9px;
+    }
+}
+@media(max-width:767px)
+{
+    .navbar-brand {
+        float: left;
+        line-height: 25px;
+    }
+    .back-color::after {
+        right: 0;
+    }
+    #toshow{
+        display: none;
+    }
+}
+
+@media(max-width:394px)
+{
+    #zighini{
+        font-size: 20px;
+    }
+}
+
+@media(min-width:768px)
+{
+    #zighini{
+        font-size: 15px;
+    }
+    #tohide{
+        display: none;
+    }
+
+}
+
+@media(min-width:992px)
+{
+    #zighini{
+        font-size: 18px;
+    }
+
+}
+
+/* @media screen and (min-width: 425px) and (max-width: 768px) {
+    li {
+    font-size:10px;
+    }
+    div {
+
+
+
+    } */
+@media(min-width: 768px) and (max-width: 992px) {
+    li{
+        font-size:11px;
+        padding: 1px;
+    }
+}
+
+@media(max-width:768px){
+.tv-discover-content h3 {
+        font-size: 25px;
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom:20px;
+    }
+.tv-discover-content p {
+    text-align: center;
+    }
+}
+
+
+@media(max-width:500px){
+    .navbar-brand {
+        float: left;
+        line-height: 25px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #222;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .nav > li {
+        display: block;
+    }
+    .toggle-color
+    {
+        background-color: #ffffff !important;
+    }
+    .tv-upper-line {
+        left: 0;
+        width: 100%;
+    }
+    .tv-upper-line::after {
+        height: 30px;
+    }
+    .tv-upper-line::before {
+        height: 30px;
+    }
+    .image-content h3 {
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+    .tv-down-line::before {
+        height: 30px;
+    }
+    .image-content {
+        font-size: 50px;
+    }
+    .tv-down-line::after {
+        height: 30px;
+    }
+    .tv-down-line {
+        left: 0;
+        width: 100%;
+    }
+    .tv-banner-desc {
+        font-size: 12px;
+        width: 90%;
+    }
+    .view-button button {
+        font-size: 12px;
+        padding: 12px 15px;
+    }
+    .tv-discover-content h3 {
+        font-size: 25px;
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom:20px;
+    }
+    .tv-discover-content > p {
+        text-align: center;
+        width:100%;
+    }
+    .img2 {
+        margin-top: 30px;
+    }
+    .menu-buttons {
+        text-align: center;
+    }
+    .tv-service-content > p {
+        text-align: center;
+    }
+    .bg-color {
+        margin-top: 30px;
+    }
+    .tv-contact-contect > span {
+        font-size: 12px;
+    }
+    .tv-contact-contect > img {
+        width: 15px;
+    }
+    .tv-hour-content > span {
+        font-size: 13px;
+    }
+    .back-color::after {
+        right: 0;
+    }
+}
